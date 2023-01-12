@@ -1,5 +1,5 @@
 /* variables */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
 /* functions */
 /* Fonts */
 /* main */
@@ -51,7 +51,7 @@ h1 {
 
 h2, h3, h4 {
   font-family: Poppins;
-  line-height: 1.2em;
+  line-height: 1em;
 }
 
 h2 {
@@ -65,9 +65,14 @@ h3, h4 {
 
 /* Skip Link */
 .skip-link {
-  padding: 1.5em;
+position: absolute;
+  left: -9999px;
+  z-index: 999;
+  padding: 1em;
   background-color: #a1b5bb;
-  color: rgb(12, 12, 12);
+  color: #000;
+  opacity: 0;
+  
 }
 
 .skip-link:focus {
